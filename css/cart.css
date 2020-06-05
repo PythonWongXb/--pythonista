@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  text-align: center;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #CADEFF;
+}
+
+th {
+  background: #e2f2ff;
+  border-top: 3px solid #a7cbff;
+  height: 30px;
+  width: 20%;
+}
+
+td {
+  padding: 10px;
+  color: #444;
+}
+
+.check_th{
+  width: 10%;
+}
+
+.footer {
+  margin-top: 20px;
+  border: 1px #999 solid;
+  position: relative;
+}
+
+.footer_table th {
+  border: none;
+  background-color: #e3e3e3;
+}
+
+body{
+  padding: 20px;
+}
+
+.footer .total_sum{
+  height: 100%;
+  width: 150px;
+  background-color: pink;
+  cursor: pointer;
+}
+
+.del_many{
+  cursor: pointer;
+}
+
+.all_things{
+  // cursor: pointer;
+  text-align: left;
+  cursor: auto;
+}
+
+.in_cart{
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+.table img{
+  height: 80px;
+  width: 80px;
+  vertical-align: middle;
+  margin-top: -20px;
+}
+
+.inp_num{
+  height: 23px;
+  width: 80px;
+  text-align: center;
+}
+
+.minus{
+  display: inline-block;
+  cursor: pointer;
+  height: 23px;
+  width: 30px;
+}
+
+.plus{
+  display: inline-block;
+  cursor: pointer;
+  height: 23px;
+  width: 30px;
+}
+
+.subinfo{
+  display: inline-block;
+  width: 200px;
+  padding-top: 20px;
+}
+
+tr>td:last-child span{
+  cursor: pointer;
+}
+
+tr>td:last-child span:hover{
+  color: red;
+}
+
+.total_num{
+  color: red;
+}
+
+.total_money{
+  color: red;
+}
+
+.select_list{
+  position: absolute;
+  bottom: 30px;
+  background-color: #fff;
+  width: calc(100% + 2px);
+  margin-left: -1px;
+  border: 1px #999 solid;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+}
+
+.select_list img{
+  height: 80px;
+  width: 80px;
+  border: 1px solid #999;
+}
+
+.cancel{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  // display: none;
+  color: #ffffff;
+  font-size: 12px;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  background: RGBA(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+
+.select_list>div{
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.show{
+  display: flex;
+}
+
